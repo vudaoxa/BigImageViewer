@@ -31,6 +31,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Toast;
+
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.github.piasy.biv.BigImageViewer;
 import com.github.piasy.biv.indicator.progresspie.ProgressPieIndicator;
@@ -40,6 +41,7 @@ import com.github.piasy.biv.view.ImageSaveCallback;
 import com.github.piasy.rxqrcode.RxQrCode;
 import com.google.zxing.Result;
 import com.tbruyelle.rxpermissions2.RxPermissions;
+
 import hu.akarnokd.rxjava.interop.RxJavaInterop;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
@@ -113,7 +115,9 @@ public class LongImageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mBigImageView.showImage(Uri.parse(
-                        "http://ww1.sinaimg.cn/mw690/005Fj2RDgw1f9mvl4pivvj30c82ougw3.jpg"));
+//                        "http://ww1.sinaimg.cn/mw690/005Fj2RDgw1f9mvl4pivvj30c82ougw3.jpg"));
+//                        "http://storage.fshare.vn//Test-vechai/1488642365-H-Mate-chap-82-ve-chai-03.jpg?imgmax=3000"));
+                        "http://storage.fshare.vn//Test-vechai/1499675325-Tan-Tac-Long-Ho-Mon-Chapter-857-01.jpg?imgmax=3000"));
             }
         });
     }
